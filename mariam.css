@@ -1,0 +1,263 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    background: url("form.avif");
+    background-size: cover;
+    background-position: center center;
+}
+.v
+{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)) ;
+width: 380px;
+padding:50px 30px ;
+border-radius: 10px;
+box-shadow: 7px 7px 60px #000;
+}
+.c input{
+    width:100%;
+    display:block;
+    padding:10px;
+    color:#222;
+    border: none;
+    outline: none;
+    margin:1em 0;
+}
+.c input[type="submit"]
+{
+    background: crimson;
+    color:#fff;
+    text-transform: uppercase;
+    font-size:1.2em ;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.c input[type="submit"]:hover{
+    opacity: 1;
+}
+.link
+{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color:#fff;
+    opacity:.6;
+    transition:opacity .3s ease ;
+}
+.link a:hover{
+    opacity: 1;
+}
+h1{
+    color:rgb(155, 104, 72)
+}
+.o
+{
+    color:rgb(155, 104, 72) 
+}
+
+.p
+{
+    background-color:rgb(155, 104, 72) ;
+   
+}
+#s
+{
+    text-align: center;
+    margin:15px;
+    padding:20px
+}
+.onee
+{
+    font-size: 20px;
+    color:#fff;
+}
+.one{
+    height:400px;
+    width:830px;
+border:3px solid wheat;
+background-image: url("l.avif") ;
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+
+}
+.twoo
+{
+    font-size: 20px;
+    color:#fff;
+}
+.two{
+    height:400px;
+    width:830px;
+border:3px solid wheat;
+background-image: url("w9.avif") ;
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+float:right;
+
+}
+*{
+    font-family: 'poppins',sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+header{
+    background-color:rgb(201, 149, 82);
+    position:fixed;
+    width:100%;
+    z-index:999;
+    display:flex;
+    justify-content:space-between;
+    padding:10px 200px;
+}
+
+.logo{
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight: bold;
+    margin-left: -50px;
+    font-size:1.8em;
+    font-family:'Times New Roman', Times, serif;
+    }
+
+.loginsignup a{
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size:1.5em;
+    font-weight:500;
+    padding-left:30px;
+    position: relative;
+    left: 100px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.loginsignup a:hover{
+    color: #918a7d;
+}
+
+
+#mainbox{
+position:fixed;
+left: 20px; 
+width: 50px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+color: #FFFFFF;
+font-size: 30px;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+#menu{
+   transition: 0.6s;
+}
+
+
+.sidemenu{
+   position: fixed;
+   top: 0px;
+   left:0px;
+   height: 100%;
+   
+   width:0px;
+   background-color:#783518; 
+   z-index: 1;
+   padding-top: 100px;
+   overflow: hidden;
+   transition: all 0.3s;
+   
+
+}
+.sidemenu a{
+   padding: 8px;
+   font-size: 30px;
+   color: #FFFFFF;
+   display: block;
+   text-decoration: none;
+    justify-content:space-between;
+   
+    margin-bottom: 30px;
+}
+.sidemenu i{
+   margin-right: 8px;
+}
+
+
+
+.sidemenu a:hover{
+
+   color: #FFFFFF;
+   margin-left: 10px;
+   transition: 0.2s;
+   top: 0px;
+}
+
+.sidemenu .closebtn{
+   color: #FFFFFF;
+   position: absolute;
+   top: 0px;
+ }
+ footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #783518;
+}
+
+footer p{
+text-decoration: none;
+color: white;
+font-size: 22px;
+margin-right: 5px;
+display: block;
+padding-bottom: 10px;
+}
+footer h2{
+    color:white;
+}
+footer .center{
+    padding: 15px;
+}
+footer .center i{
+    color: white; 
+
+}
+footer .center span{
+    color: white;
+    margin-left: 5px;
+}
+footer .center .loca{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+footer .center .call{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+footer .center .emil{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'poppins',sans-serif;
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     scroll-behavior:smooth;
+ }
