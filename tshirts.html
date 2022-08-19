@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/tshirt.css" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/909ef86275.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Shoppingo</a>
+      <nav class="loginsignup">
+        <a href="#">log in</a>
+        <a href="#">sign up</a>
+      </nav>
+      <div id="mainbox" onclick="openFunction();">&#9776;</div>
+      <div id="menu" class="sidemenu">
+        <a href="" class=""><i class="fa-solid fa-house-chimney"></i>Home</a>
+        <a href=""><i class="fa-solid fa-bag-shopping"></i>Bags</a>
+        <a href=""><i class="fa-solid fa-bag-shopping"></i>Dresses</a>
+        <a href=""
+          ><i class="fa-solid fa-basket-shopping-simple"></i>Pants and sKirts</a
+        >
+        <a href=""><i class="fa-solid fa-shirt"></i>shirts</a>
+        <a href=""><i class="fa-solid fa-shoe-prints"></i>shoes</a>
+        <a class="closebtn" onclick="closeFunction">&times;</a>
+      </div>
+    </header>
+    <aside>
+      <div class="contanier">
+        <div class="first">
+          <p>Blouses & shirts</p>
+          <a href="#">Blouses</a>
+          <a href="#">shirts</a>
+        </div>
+        <br />
+        <div class="two">
+          <p>color</p>
+          <form action="">
+            <div>
+              <input id="r" type="checkbox" /> <label for="r">Red</label>
+            </div>
+            <div>
+              <input id="w" type="checkbox" /> <label for="w">White</label>
+            </div>
+            <div>
+              <input id="b" type="checkbox" /> <label for="b">Black</label>
+            </div>
+            <div>
+              <input id="p" type="checkbox" /> <label for="r">Pink</label>
+            </div>
+            <div>
+              <input id="Y" type="checkbox" /> <label for="Y">Yellow</label>
+            </div>
+          </form>
+        </div>
+        <br />
+        <div class="three">
+          <p>price</p>
+          <form action="">
+            <input type="range" min="200" max="600" step="50" />
+          </form>
+        </div>
+        <br />
+        <div class="four">
+          <p>Size</p>
+          <form action="">
+            <div>
+              <input id="xs" type="checkbox" /> <label for="xs">XS</label>
+            </div>
+            <div>
+              <input id="xs2" type="checkbox" /> <label for="xs2">XS/S</label>
+            </div>
+            <div><input id="S" type="checkbox" /> <label for="S">S</label></div>
+            <div>
+              <input id="sm" type="checkbox" /> <label for="sm">S/M</label>
+            </div>
+            <div>
+              <input id="sm2" type="checkbox" /> <label for="sm2">S-M</label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </aside>
+    <section>
+      <div class="t1">
+        <img src="./image/1.jpg" alt="" />
+        <p>150EGP</p>
+        <p><del>200EGP</del></p>
+      </div>
+      <div class="t2">
+        <img src="./image/2.jpg" alt="" />
+        <p>300EGP</p>
+        <p><del>400EGP</del></p>
+      </div>
+      <div class="t3">
+        <img src="./image/3.jpg" alt="" />
+        <p>200EGP</p>
+        <p><del>250EGP</del></p>
+      </div>
+      <div class="t4">
+        <img src="./image/4.jpg" alt="" />
+        <p>100EGP</p>
+        <p><del>150EGP</del></p>
+      </div>
+      <div class="t5">
+        <img src="./image/5.jpg" alt="" />
+        <p>200EGP</p>
+        <p><del>250EGP</del></p>
+      </div>
+      <div class="t6">
+        <img src="./image/6.jpg" alt="" />
+        <p>500EGP</p>
+        <p><del>600EGP</del></p>
+      </div>
+      <div class="t7">
+        <img src="./image/7.jpg" alt="" />
+        <p>350EGP</p>
+        <p><del>250EGP</del></p>
+      </div>
+      <div class="t8">
+        <img src="./image/8.jpg" alt="" />
+        <p>1750EGP</p>
+        <p><del>150EGP</del></p>
+      </div>
+      <div class="t9">
+        <img src="./image/9.jpg" alt="" />
+        <p>200EGP</p>
+        <p><del>250EGP</del></p>
+      </div>
+      <div class="t10">
+        <img src="./image/10.jpg" alt="" />
+        <p>350EGP</p>
+        <p><del>250EGP</del></p>
+      </div>
+    </section>
+    <footer>
+      <div class="left">
+        <h2>Welcome to shoppingo;</h2>
+        <p>Better choice,Better look,Better life.</p>
+      </div>
+      <div class="center">
+        <div class="loca">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Dokki&El Giza</span>
+        </div>
+        <div class="call">
+          <i class="fa-solid fa-phone"></i>
+          <span>02221566</span>
+        </div>
+        <div class="emil">
+          <i class="fa-solid fa-envelope"></i>
+          <span>store@gmail.com</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
